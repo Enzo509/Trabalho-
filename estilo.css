@@ -1,0 +1,137 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.cabeca{ 
+    margin: 0.4vw;
+    font-size: 2vw;
+    height: 4vw;
+    width: 15vw;
+    border: black solid 2px;
+    border-radius: 10em;
+    cursor: pointer;
+    
+}
+header{
+    color: white;
+    background-color:rgb(172, 91, 25);
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    margin-top: 0px;
+    height: 10%;
+    border: 3px solid black;
+    width: 100%;
+    font-size: 10%;
+    font-size: 2vw;
+    
+    
+}
+#cadastrar{
+    margin-top: 2vw;
+}
+body{
+    background-color: rgb(201, 221, 219);
+    color: white;
+}
+
+#page{
+    color: white;
+}
+#nome{
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+
+    border: black solid 2px;
+    height: 100%;
+    width: 40%;
+    font-size: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+   background-color: rgb(7, 24, 44);
+   
+}
+
+button{
+    background-color: rgb(139, 81, 14);
+    color: white;
+}
+img{
+margin-left: 56%;
+margin-top: 30%;
+height: 30vw;
+width:30vw;
+animation-duration: 10s;
+animation-name: img;
+animation-iteration-count: infinite;
+animation-timing-function: 5s, 5;
+}
+   
+
+input{
+    font-size: 2vw;
+    height: 5%;
+    width: 70%;
+     border-radius: 1.29vw;
+    margin: 4vw;
+}
+
+.log{
+    border: black solid 2px;
+    border-radius: 10em;
+    background-color:rgb(201, 151, 15);
+    cursor: pointer;
+    padding: 3%;
+    width: 50%;
+    font-size: 2vw;
+
+}
+button:hover{
+    animation-duration: 2s;
+animation-name: but;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(1, 1);
+    
+}
+h1{
+    font-size: 3vw;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(255, 255, 255);
+    margin: 1vw;
+    
+}
+a{
+    text-decoration: none;
+}
+@keyframes img {
+
+    0%{
+        margin-top: 5%;
+    }
+    50%{
+        margin-top: 20%;
+    }
+
+    100%{
+        margin-top: 5%;
+    }
+}
+
+@keyframes but {
+    0%{
+        background-color:rgb(201, 151, 15);
+    }
+
+    50%{
+        background-color: rgb(206, 178, 52);
+    }
+    100%{
+        background-color:rgb(201, 151, 15);
+    }
+    
+}

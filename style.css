@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    color: whitesmoke;
+    background-color: rgb(43, 75, 130);
+}
+#a{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+#b{
+    margin-top: 0.7vw;
+    height: 2.7vw;
+    width:  2.5vw;
+}
+.c{
+  width: 80%;
+}
+a{
+color: white;
+text-decoration: none;
+}
+.head{
+height: 100%;
+margin-top: 3vw;;
+width: 80%;
+border-radius: 0.8vw;
+cursor: pointer;
+background-color: rgb(27, 13, 155);
+border: black solid 0.3vw;
+color: white;
+}
+
+
+button{
+
+    font-size: 1vw;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: rgb(58, 107, 212);
+}
+header{
+    margin-left: 1vw;
+font-size: 2vw;
+    height: 3vw;
+   display: flex;
+   justify-content: space-between;
+ 
+}
+
+#empresa{
+    margin-left: 45%;
+    font-size: 2.2vw;
+}
+main{
+   display: flex;
+   justify-content: center;
+    margin-top: 2vw;
+}
+#teste{
+    margin-left: 35%;
+   height: 15vw;
+ margin-top: 2vw;
+ width: 100%;
+    background-size: 30vw;
+    background-image: url(resposabilidade.jpg);
+    background-repeat: no-repeat;
+    animation-duration: 15s;
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(6, 4);
+}
+footer{
+    font-size: 1.5vw;
+}
+
+#colorir{
+    width: 100%;
+    height: 12vw;
+   background-color: rgb(27, 13, 155);
+}
+@keyframes image{
+    0%{
+background-image: url(download.jpg);
+    }
+    25%{
+
+        background-image: url(images.png);
+    }
+    50%{
+        background-image: url(resposabilidade.jpg)
+    }
+    75%{
+        background-image: url(produtividade.jpg)
+    }
+    100%{
+        background-image: url(download.jpg)
+    }
+}
